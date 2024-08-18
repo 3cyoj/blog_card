@@ -1,6 +1,5 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <!-- [Delete this comment] This file is the main file for the challenge. For the most part, you should be editing this file. -->
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,6 +9,10 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
     <link rel="stylesheet" href="css/style.css" />
 
@@ -23,19 +26,43 @@
       /* You may write styles inside this <style> tag or within `css/style.css`. */
     </style>
   </head>
-  <body>
-    <!-- Add your site or application content here -->
-    <h1 class="text-5xl text-center font-semibold pt-20">
-      Hello world! Write your content here.
-    </h1>
-
-    <!-- Interior
-      Top 5 Living Room Inspirations
-      Curated vibrants colors for your living, make it pop & calm in the same time.
-      Read more -->
+  <body class="bg-gradient-to-b from-slate-50 to-slate-200">
+    <div class="m-4 grid h-screen place-items-center">
+      <article class="rounded-lg border border-gray-200 bg-white md:w-96">
+        <div class="bg-cover bg-center">
+          <img
+            src="./img/spacejoy-YqFz7UMm8qE-unsplash.jpg"
+            alt="living room design"
+            class="h-72 w-full rounded-t-lg object-cover"
+          />
+        </div>
+        <div class="px-4 py-6">
+          <div class="pb-2">
+            <div
+              class="w-fit rounded-full border border-green-200 bg-green-50 px-2"
+            >
+              <span class="text-sm text-green-700">Interior</span>
+            </div>
+          </div>
+          <h1 class="pb-3 text-lg font-semibold">
+            Top 5 Living Room Inspirations
+          </h1>
+          <p class="pb-6 font-medium text-neutral-600">
+            Curated vibrants colors for your living, make it pop & calm in the
+            same time.
+          </p>
+          <a
+            class="flex w-fit font-medium text-indigo-700 hover:text-indigo-800 focus:ring focus:ring-violet-100"
+            href=""
+            >Read more
+            <span class="material-symbols-outlined px-3"> arrow_forward </span>
+          </a>
+        </div>
+      </article>
+    </div>
 
     <!-- Attribute this challenge to yourself! -->
-    <div class="credits" data-gfe-screenshot-exclude="true">
+    <!-- <div class="credits" data-gfe-screenshot-exclude="true">
       A challenge by
       <a
         href="https://www.greatfrontend.com/projects?ref=challenges"
@@ -43,11 +70,11 @@
         >GreatFrontEnd Projects</a
       >. Built by
       <a
-        href="https://www.greatfrontend.com/projects/u/username"
+        href=""
         target="_blank"
-        >Your Name</a
+        >Joyce</a
       >.
-    </div>
+    </div> -->
     <script src="js/index.js"></script>
   </body>
 </html>
